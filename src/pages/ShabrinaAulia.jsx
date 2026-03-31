@@ -1,3 +1,6 @@
+import {Link} from 'react-router-dom';
+import foto from '../assets/najwa.jpeg';
+
 function ProfilNajwa() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-white to-pink-200 p-4">

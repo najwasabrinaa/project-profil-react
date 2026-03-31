@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import najwaFoto from '../assets/najwa.jpeg';
+import binaFoto from '../assets/bina.jpeg';
 
 function Home() {
   const anggota = [
@@ -19,7 +20,7 @@ function Home() {
       prodi: 'Teknologi Informasi',
       domisili: 'Bogor',
       path: '/ShabrinaAulia',
-      foto: 'namaimport',
+      foto: binaFoto,
     },
   ];
 

@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import najwaFoto from '../assets/najwa.jpeg';
+import binaFoto from '../assets/bina.jpeg';
 import difaFoto from '../assets/Difa Octavia Firdayani.jpeg';
 
 function Home() {
@@ -20,7 +21,7 @@ function Home() {
       prodi: 'Teknologi Informasi',
       domisili: 'Bogor',
       path: '/ShabrinaAulia',
-      foto: 'namaimport',
+      foto: binaFoto,
     },
   ];
 
@@ -28,7 +29,7 @@ function Home() {
     <div className='min-h-screen bg-gradient-to-br from-pink-100 via-white to-pink-200 flex flex-col items-center justify-center px-6 py-12'>
       <div className='text-center mb-10'>
         <div className='inline-block bg-pink-100 border border-pink-300 rounded-2xl px-6 py-2 mb-4'>
-          <span className='text-pink-600 text-sm font-medium tracking-widest uppercase'>Project Pemrograman Web </span>
+          <span className='text-pink-600 text-sm font-medium tracking-widest uppercase'>Project React </span>
         </div>
         <h1 className='text-5xl font-extrabold text-pink-600 mb-2'>Kelompok 3 T2E</h1>
         <p className='text-pink-400 text-base'>Teknologi Informasi - Universitas Brawijaya</p>
